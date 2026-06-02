@@ -274,7 +274,7 @@
 	                                      position:relative;
 	                                      /*padding-right:.75rem;*/
 	                                      line-height:1.6;
-	                                      transition: padding 150ms linear;
+	                                      transition: padding 150ms ease-in;
 	                                    }
 	                                  ${_cStyle} button[disabled]:hover, ${_cStyle} input[disabled]:hover, ${_cStyle} select[disabled]:hover, ${_cStyle} textarea[disabled]:hover{
 	                                        cursor: not-allowed !important;
