@@ -30,8 +30,9 @@
   <input type="submit">
 */
 (function (d, w) {
-  function DalinaFVS(form, options) {
+  function DalinaFVS(form, options) {	 
     const self = this;
+	options = options || {};
     const _listeners = new WeakMap();
     const _errors =[];
     let _mounted = false;
