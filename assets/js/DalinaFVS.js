@@ -49,13 +49,13 @@
     let _mouseEvents = 0;
     let _options = Object.freeze({
         //Security
-        bait: options.bait || false,
-        defaultKey: options.defaultKey || '000-00-0000',
+        bait: (options && options.bait) || false,
+        defaultKey: (options && options.defaultKey) || '000-00-0000',
         //Helper
-        log: options.log || false,
-        debug: options.debug || false,
+        log: (options && options.log) || false,
+        debug: (options && options.debug) || false,
         //Style
-        style: options.style || null
+        style: (options && options.style) || null
       });
     let _form = document.querySelector(form) || null;
     let _button = null;
