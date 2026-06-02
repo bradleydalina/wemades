@@ -3,7 +3,6 @@
   Copyright (C) Bradley B Dalina 2026
   Distributed under the MIT License (license terms are at http://opensource.org/licenses/MIT).
 */
-
 /*
   <input type="checkbox">
   <input type="color">
@@ -222,10 +221,10 @@
                                     ${_cStyle} input:not([type="radio"]):not([type="checkbox"]).invalid,
 	                                  ${_cStyle} select:user-invalid,
                                     ${_cStyle} select.invalid,
-                                    ${_cStyle} textarea:user-invalid
+                                    ${_cStyle} textarea:user-invalid,
 	                                  ${_cStyle} textarea.invalid{
 	                                        border: solid 1px #ff0000 !important;
-	                                        padding-right: calc(1.5em + .75rem) !important;
+	                                        /*padding-right: calc(1.5em + .75rem) !important;*/
 	                                        background-color: #ffffff !important;
 	                                        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 16 16'%3E%3Cpath fill='%23ac0202' d='M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2a1 1 0 0 0 0-2z'/%3E%3C/svg%3E") !important;
 	                                        background-repeat: no-repeat !important;
@@ -261,7 +260,7 @@
 	                                  ${_cStyle} textarea.valid,
 	                                  ${_cStyle} textarea.valid:autofill,
 	                                  ${_cStyle} textarea:autofill:valid{
-	                                        padding-right: calc(1.5em + .75rem) !important;
+	                                        /*padding-right: calc(1.5em + .75rem) !important;*/
 	                                        background-color: white !important;
 	                                        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 12 12'%3E%3Cpath fill='%23038205' d='M6 0C2.69 0 0 2.69 0 6s2.69 6 6 6s6-2.69 6-6s-2.69-6-6-6m3.44 4.94l-3.5 3.5c-.12.12-.28.18-.44.18s-.32-.06-.44-.18l-2-2c-.24-.24-.24-.64 0-.88s.64-.24.88 0L5.5 7.12l3.06-3.06c.24-.24.64-.24.88 0c.25.24.25.64 0 .88'/%3E%3C/svg%3E") !important;
 	                                        background-repeat: no-repeat !important;
@@ -273,7 +272,7 @@
 	                                  ${_cStyle} textarea.valid:autofill, ${_cStyle} textarea.valid,${_cStyle} textarea:user-valid,${_cStyle} textarea:valid,${_cStyle} textarea:autofill:valid{background-position: right calc(.375em + .1875rem) top 10px;}
 	                                  ${_cStyle} button[type='submit'], ${_cStyle} input[type='submit']{
 	                                      position:relative;
-	                                      padding-right:.75rem;
+	                                      /*padding-right:.75rem;*/
 	                                      line-height:1.6;
 	                                      transition: padding 150ms linear;
 	                                    }
